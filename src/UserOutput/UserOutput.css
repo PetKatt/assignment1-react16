@@ -1,0 +1,9 @@
+.userOutput
+{
+	color: blue;
+	width: 60%;
+	margin: 16px auto;
+	border: 1px solid #bbb;
+	box-shadow: 0 2px 3px #ccc;
+	padding: 10px;
+}

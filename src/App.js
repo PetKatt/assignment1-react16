@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserInput changed={this.manipulateStateHandler} />
+        <UserInput username={this.state.username} changed={this.manipulateStateHandler} />
         <UserOutput username={this.state.username} />
         <UserOutput username={this.state.username} />
         <UserOutput username={this.state.username} />
