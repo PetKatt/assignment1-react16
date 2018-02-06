@@ -9,6 +9,12 @@ class App extends Component {
     username: "Peter"
   }
 
+  manipulateStateHandler = (event) => {
+    this.setState({
+      username: event.target.value
+    });
+  }
+
   render() {
     return (
       <div className="App">
